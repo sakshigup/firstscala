@@ -61,7 +61,7 @@ This will persist your data manually in the database.
 
 #### To get the data:
 
-* Invoke the route by providing the start timestamp/end timestamp/device id or any combinations of all the three.
+* Invoke the route by providing the **start timestamp/end timestamp/device id** or any combinations of all the three.
 ```
 http://localhost:9000/api/temperatureData?startTs&endTs&deviceId
 ```
