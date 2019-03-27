@@ -52,7 +52,7 @@ This will compile and run all your files and starts the services.
 ```
 http://localhost:9000/api/temperatureData
 ```
-
+* Provide the data.
 #### Example:
 ```.env
 {"deviceId":"Device100", "timestamp":"2014-02-20T12:33:40Z", "temperature":87}
