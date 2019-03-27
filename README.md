@@ -46,7 +46,7 @@ sbt runAll
 This will compile and run all your files and starts the services.
 
 
-#### To enter data manually int the database
+#### To enter data manually int the database-
 
 * Invoke the route through POSTMAN and make a POST call.
 ```
@@ -59,7 +59,9 @@ http://localhost:9000/api/temperatureData
 ```
 This will persist your data manually in the database.
 
-* To get the data, invoke the route by providing the start timestamp or end timestamp or device id or any combinations of all three:
+#### To get the data
+
+* Invoke the route by providing the start timestamp/end timestamp/device id or any combinations of all the three.
 ```
 http://localhost:9000/api/temperatureData?startTs&endTs&deviceId
 ```
@@ -86,6 +88,7 @@ http://localhost:9000/api/temperatureData?startTs=1422867820000&endTs=1550702020
   }
 ```
 
+#### Quality Tools and Plugins
 * Different quality tools and plugins are added in the application for better performance.
 
 To view the use of these plugins and how to use them: [QUALITY TOOLS AND PLUGINS](https://github.com/KnoldusLabs/TrailBlazer/wiki)
