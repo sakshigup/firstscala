@@ -46,7 +46,9 @@ sbt runAll
 This will compile and run all your files and starts the services.
 
 
-#### To enter data manually, invoke the route through POSTMAN and make a POST call.
+#### To enter data manually int the database
+
+* Invoke the route through POSTMAN and make a POST call.
 ```
 http://localhost:9000/api/temperatureData
 ```
