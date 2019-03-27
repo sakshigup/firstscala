@@ -46,7 +46,7 @@ sbt runAll
 This will compile and run all your files and starts the services.
 
 
-#### To enter data manually int the database-
+#### To enter data manually in the database :-
 
 * Invoke the route through POSTMAN and make a POST call.
 ```
@@ -59,7 +59,7 @@ http://localhost:9000/api/temperatureData
 ```
 This will persist your data manually in the database.
 
-#### To get the data
+#### To get the data :-
 
 * Invoke the route by providing the start timestamp/end timestamp/device id or any combinations of all the three.
 ```
